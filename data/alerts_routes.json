@@ -1,0 +1,158 @@
+{
+  "generated_at": "2026-11-21T22:08:24.999867+00:00",
+  "node_assessments": [
+    {
+      "name": "Pachmarhi Town",
+      "type": "town",
+      "lat": 22.4675,
+      "lon": 78.4346,
+      "status": "ALERT",
+      "inside_corridor": false,
+      "nearest_hotspot": "SAT-HS-02",
+      "distance_to_fire_km": 7.77
+    },
+    {
+      "name": "Madhai Gate",
+      "type": "checkpoint",
+      "lat": 22.589,
+      "lon": 77.968,
+      "status": "ALERT",
+      "inside_corridor": false,
+      "nearest_hotspot": "SAT-HS-03",
+      "distance_to_fire_km": 4.96
+    },
+    {
+      "name": "Churna Forest Camp",
+      "type": "ranger_camp",
+      "lat": 22.478,
+      "lon": 78.081,
+      "status": "ALERT",
+      "inside_corridor": false,
+      "nearest_hotspot": "SAT-HS-01",
+      "distance_to_fire_km": 8.13
+    },
+    {
+      "name": "Bori Wildlife Sanctuary",
+      "type": "reserve_core",
+      "lat": 22.412,
+      "lon": 78.234,
+      "status": "WATCH",
+      "inside_corridor": false,
+      "nearest_hotspot": "SAT-HS-01",
+      "distance_to_fire_km": 9.5
+    },
+    {
+      "name": "Pipariya Base Hub",
+      "type": "evacuation_hub",
+      "lat": 22.762,
+      "lon": 78.352,
+      "status": "SAFE",
+      "inside_corridor": false,
+      "nearest_hotspot": "SAT-HS-02",
+      "distance_to_fire_km": 34.93
+    }
+  ],
+  "evacuation_routes": [
+    {
+      "from_node": "Pachmarhi Town",
+      "to_hub": "Pipariya Base Hub",
+      "priority": "ALERT",
+      "distance_km": 33.83,
+      "exit_bearing_deg": 323.0,
+      "hub_bearing_deg": 345.5,
+      "waypoints_latlon": [
+        [
+          22.4675,
+          78.4346
+        ],
+        [
+          22.4962,
+          78.4112
+        ],
+        [
+          22.762,
+          78.352
+        ]
+      ]
+    },
+    {
+      "from_node": "Madhai Gate",
+      "to_hub": "Pipariya Base Hub",
+      "priority": "ALERT",
+      "distance_km": 43.84,
+      "exit_bearing_deg": 323.0,
+      "hub_bearing_deg": 63.9,
+      "waypoints_latlon": [
+        [
+          22.589,
+          77.968
+        ],
+        [
+          22.6177,
+          77.94458
+        ],
+        [
+          22.762,
+          78.352
+        ]
+      ]
+    },
+    {
+      "from_node": "Churna Forest Camp",
+      "to_hub": "Madhai Gate",
+      "priority": "ALERT",
+      "distance_km": 16.94,
+      "exit_bearing_deg": 323.0,
+      "hub_bearing_deg": 316.8,
+      "waypoints_latlon": [
+        [
+          22.478,
+          78.081
+        ],
+        [
+          22.5067,
+          78.0576
+        ],
+        [
+          22.589,
+          77.968
+        ]
+      ]
+    }
+  ],
+  "satcom_alerts": [
+    {
+      "timestamp_utc": "2026-11-21T22:08:24Z",
+      "severity": "ALERT",
+      "node": "Pachmarhi Town",
+      "nearest_hotspot": "SAT-HS-02",
+      "distance_km": 7.77,
+      "recommended_hub": "Pipariya Base Hub",
+      "exit_bearing_deg": 323.0,
+      "satcom_payload": "ASTRA|ALERT|PACHMARHI TO|POS:22.468,78.435|HS:SAT-HS-02|EXIT:323DEG->HUB:PIPARIYA B",
+      "payload_bytes": 83
+    },
+    {
+      "timestamp_utc": "2026-11-21T22:08:24Z",
+      "severity": "ALERT",
+      "node": "Madhai Gate",
+      "nearest_hotspot": "SAT-HS-03",
+      "distance_km": 4.96,
+      "recommended_hub": "Pipariya Base Hub",
+      "exit_bearing_deg": 323.0,
+      "satcom_payload": "ASTRA|ALERT|MADHAI GATE|POS:22.589,77.968|HS:SAT-HS-03|EXIT:323DEG->HUB:PIPARIYA B",
+      "payload_bytes": 82
+    },
+    {
+      "timestamp_utc": "2026-11-21T22:08:24Z",
+      "severity": "ALERT",
+      "node": "Churna Forest Camp",
+      "nearest_hotspot": "SAT-HS-01",
+      "distance_km": 8.13,
+      "recommended_hub": "Madhai Gate",
+      "exit_bearing_deg": 323.0,
+      "satcom_payload": "ASTRA|ALERT|CHURNA FORES|POS:22.478,78.081|HS:SAT-HS-01|EXIT:323DEG->HUB:MADHAI GAT",
+      "payload_bytes": 83
+    }
+  ]
+}

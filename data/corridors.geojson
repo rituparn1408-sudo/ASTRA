@@ -1,0 +1,168 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated_at": "2026-11-21T22:08:24.999867+00:00",
+    "wind_speed_kmh": 3.9,
+    "wind_from_deg": 53.0,
+    "spread_bearing_deg": 233.0,
+    "humidity_pct": 91.0
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "hotspot_id": "SAT-HS-01",
+        "sector": "Bori-Churna Dry Corridor",
+        "origin_lat": 22.435,
+        "origin_lon": 78.145,
+        "fuel_dryness": 0.84,
+        "wind_speed_kmh": 3.9,
+        "wind_from_deg": 53.0,
+        "spread_bearing_deg": 233.0,
+        "projected_spread_km": 3.42,
+        "approx_area_km2": 4.49,
+        "risk_score": 0.426,
+        "risk_level": "MODERATE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.145,
+              22.435
+            ],
+            [
+              78.13387,
+              22.41788
+            ],
+            [
+              78.12342,
+              22.41369
+            ],
+            [
+              78.11846,
+              22.41651
+            ],
+            [
+              78.11689,
+              22.4217
+            ],
+            [
+              78.12413,
+              22.42983
+            ],
+            [
+              78.145,
+              22.435
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hotspot_id": "SAT-HS-02",
+        "sector": "Southwest Pachmarhi Escarpment",
+        "origin_lat": 22.448,
+        "origin_lon": 78.362,
+        "fuel_dryness": 0.76,
+        "wind_speed_kmh": 3.9,
+        "wind_from_deg": 53.0,
+        "spread_bearing_deg": 233.0,
+        "projected_spread_km": 3.33,
+        "approx_area_km2": 4.26,
+        "risk_score": 0.39,
+        "risk_level": "LOW"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.362,
+              22.448
+            ],
+            [
+              78.35116,
+              22.43133
+            ],
+            [
+              78.34099,
+              22.42725
+            ],
+            [
+              78.33615,
+              22.43
+            ],
+            [
+              78.33463,
+              22.43505
+            ],
+            [
+              78.34168,
+              22.44297
+            ],
+            [
+              78.362,
+              22.448
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "hotspot_id": "SAT-HS-03",
+        "sector": "Madhai Buffer Belt",
+        "origin_lat": 22.552,
+        "origin_lon": 77.995,
+        "fuel_dryness": 0.52,
+        "wind_speed_kmh": 3.9,
+        "wind_from_deg": 53.0,
+        "spread_bearing_deg": 233.0,
+        "projected_spread_km": 3.07,
+        "approx_area_km2": 3.62,
+        "risk_score": 0.282,
+        "risk_level": "LOW"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.995,
+              22.552
+            ],
+            [
+              77.985,
+              22.53663
+            ],
+            [
+              77.97562,
+              22.53287
+            ],
+            [
+              77.97115,
+              22.5354
+            ],
+            [
+              77.96975,
+              22.54007
+            ],
+            [
+              77.97625,
+              22.54736
+            ],
+            [
+              77.995,
+              22.552
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

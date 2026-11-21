@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-11-21T22:08:24.994154+00:00",
+  "aoi_bbox": [
+    77.9,
+    22.3,
+    78.6,
+    22.7
+  ],
+  "weather": {
+    "source": "Live Weather Telemetry (MOSDAC-compatible schema)",
+    "temperature_c": 15.9,
+    "humidity_pct": 91.0,
+    "wind_speed_kmh": 3.9,
+    "wind_from_deg": 53.0
+  },
+  "hotspots": [
+    {
+      "hotspot_id": "SAT-HS-01",
+      "sector": "Bori-Churna Dry Corridor",
+      "lat": 22.435,
+      "lon": 78.145,
+      "brightness_k": 342.5,
+      "ndvi": 0.24,
+      "fuel_dryness": 0.84,
+      "confidence": "HIGH"
+    },
+    {
+      "hotspot_id": "SAT-HS-02",
+      "sector": "Southwest Pachmarhi Escarpment",
+      "lat": 22.448,
+      "lon": 78.362,
+      "brightness_k": 336.1,
+      "ndvi": 0.31,
+      "fuel_dryness": 0.76,
+      "confidence": "HIGH"
+    },
+    {
+      "hotspot_id": "SAT-HS-03",
+      "sector": "Madhai Buffer Belt",
+      "lat": 22.552,
+      "lon": 77.995,
+      "brightness_k": 318.4,
+      "ndvi": 0.48,
+      "fuel_dryness": 0.52,
+      "confidence": "MEDIUM"
+    }
+  ]
+}
