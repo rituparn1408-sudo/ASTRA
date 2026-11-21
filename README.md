@@ -16,7 +16,7 @@ A modular wildfire prediction and offline-ready ranger navigation system for the
 
 ## How to Run Locally
 ```bash
-git clone [https://github.com/](https://github.com/)<your-username>/ASTRA.git
+git clone https://github.com/rituparn1408-sudo/ASTRA.git
 cd ASTRA
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
